@@ -15,7 +15,8 @@
     "@sanity/desk-tool",
     "@sanity/vision",
     "@sanity/dashboard",
-    "vercel-deploy"
+    "vercel-deploy",
+    "markdown"
   ],
   "env": {
     "development": {

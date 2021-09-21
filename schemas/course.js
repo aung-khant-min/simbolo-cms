@@ -9,6 +9,11 @@ export default {
             title: 'Title'
         },
         {
+            type: 'image',
+            name: 'image',
+            title: 'Image'
+        },
+        {
             type: 'string',
             name: 'slug',
             title: 'Slug'
@@ -47,9 +52,14 @@ export default {
             }]
         },
         {
-            type: 'text',
+            type: 'markdown',
             name: 'detail',
             title: 'Course Details'
+        },
+        {
+            type: 'markdown',
+            name: 'prerequisites',
+            title: 'Prerequisites'
         },
         {
             type: 'object',
@@ -67,7 +77,7 @@ export default {
                     title: 'Name'
                 },
                 {
-                    type: 'text',
+                    type: 'markdown',
                     name: 'instructorAbout',
                     title: 'About'
                 },
